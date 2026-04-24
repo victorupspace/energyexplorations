@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plus Jakarta Sans - Demonstração</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background: #ffffff;
+            color: #000000;
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 60px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #F57C00;
+        }
+
+        .header h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 18px;
+            color: #666;
+            font-weight: 400;
+        }
+
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #F57C00;
+        }
+
+        .weights-grid {
+            display: grid;
+            gap: 30px;
+        }
+
+        .weight-sample {
+            padding: 20px;
+            background: #f8f8f8;
+            border-left: 4px solid #F57C00;
+        }
+
+        .weight-label {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .sample-text-large {
+            font-size: 36px;
+            margin-bottom: 10px;
+            line-height: 1.2;
+        }
+
+        .sample-text-medium {
+            font-size: 24px;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+
+        .sample-text-small {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .alphabet {
+            margin-top: 20px;
+            padding: 20px;
+            background: #ffffff;
+            border: 1px solid #e0e0e0;
+        }
+
+        .alphabet-title {
+            font-size: 14px;
+            color: #999;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+
+        .alphabet-text {
+            font-size: 20px;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+
+        .use-cases {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .use-case {
+            padding: 30px;
+            background: #000000;
+            color: #ffffff;
+            border-radius: 8px;
+        }
+
+        .use-case h3 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: #F57C00;
+        }
+
+        .use-case p {
+            font-size: 16px;
+            line-height: 1.6;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+
+        .use-case button {
+            background: #F57C00;
+            color: #ffffff;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 6px;
+            cursor: pointer;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            transition: background 0.3s;
+        }
+
+        .use-case button:hover {
+            background: #E65100;
+        }
+
+        .paragraph-sample {
+            background: #f8f8f8;
+            padding: 30px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .paragraph-sample h4 {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: #F57C00;
+        }
+
+        .paragraph-sample p {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #000000;
+            font-weight: 400;
+            margin-bottom: 15px;
+        }
+
+        .numbers {
+            font-size: 48px;
+            font-weight: 700;
+            letter-spacing: 5px;
+            color: #F57C00;
+            margin: 30px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Plus Jakarta Sans</h1>
+        <p>Fonte geométrica sans-serif moderna e versátil</p>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Pesos Disponíveis</h2>
+        <div class="weights-grid">
+            <div class="weight-sample">
+                <div class="weight-label">ExtraLight (200)</div>
+                <div class="sample-text-large" style="font-weight: 200;">Energia Renovável</div>
+            </div>
+
+            <div class="weight-sample">
+                <div class="weight-label">Light (300)</div>
+                <div class="sample-text-large" style="font-weight: 300;">Energia Renovável</div>
+            </div>
+
+            <div class="weight-sample">
+                <div class="weight-label">Regular (400)</div>
+                <div class="sample-text-large" style="font-weight: 400;">Energia Renovável</div>
+            </div>
+
+            <div class="weight-sample">
+                <div class="weight-label">Medium (500)</div>
+                <div class="sample-text-large" style="font-weight: 500;">Energia Renovável</div>
+            </div>
+
+            <div class="weight-sample">
+                <div class="weight-label">SemiBold (600)</div>
+                <div class="sample-text-large" style="font-weight: 600;">Energia Renovável</div>
+            </div>
+
+            <div class="weight-sample">
+                <div class="weight-label">Bold (700)</div>
+                <div class="sample-text-large" style="font-weight: 700;">Energia Renovável</div>
+            </div>
+
+            <div class="weight-sample">
+                <div class="weight-label">ExtraBold (800)</div>
+                <div class="sample-text-large" style="font-weight: 800;">Energia Renovável</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Alfabeto Completo</h2>
+        <div class="alphabet">
+            <div class="alphabet-title">Maiúsculas</div>
+            <div class="alphabet-text" style="font-weight: 600;">ABCDEFGHIJKLMNOPQRSTUVWXYZ</div>
+            
+            <div class="alphabet-title" style="margin-top: 20px;">Minúsculas</div>
+            <div class="alphabet-text" style="font-weight: 400;">abcdefghijklmnopqrstuvwxyz</div>
+            
+            <div class="alphabet-title" style="margin-top: 20px;">Números</div>
+            <div class="alphabet-text" style="font-weight: 600;">0123456789</div>
+            
+            <div class="alphabet-title" style="margin-top: 20px;">Caracteres Especiais</div>
+            <div class="alphabet-text" style="font-weight: 400;">!@#$%&*()_+-=[]{}|;':",.<>?/</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Números em Destaque</h2>
+        <div class="numbers">1234567890</div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Exemplo de Parágrafo</h2>
+        <div class="paragraph-sample">
+            <h4>Mercado Livre de Energia no Brasil</h4>
+            <p>O mercado livre de energia tem experimentado um crescimento significativo nos últimos anos, impulsionado pela busca de empresas por maior competitividade e sustentabilidade. Com a abertura gradual do setor, consumidores de média e alta tensão podem escolher seus fornecedores de energia.</p>
+            <p>As comercializadoras varejistas desempenham papel fundamental nessa transformação, oferecendo soluções personalizadas e energia renovável certificada. O ambiente de contratação livre já representa 42% do consumo nacional de energia elétrica.</p>
+            <p style="font-weight: 600; color: #F57C00;">A digitalização e a inovação tecnológica são pilares essenciais para o futuro do setor energético brasileiro.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Aplicações com Laranja (#F57C00)</h2>
+        <div class="use-cases">
+            <div class="use-case">
+                <h3>Título Principal</h3>
+                <p>Plus Jakarta Sans oferece excelente legibilidade em títulos e cabeçalhos, com um visual moderno e profissional que funciona perfeitamente para o setor de energia.</p>
+                <button>Saiba Mais</button>
+            </div>
+
+            <div class="use-case">
+                <h3>Call to Action</h3>
+                <p>A fonte se destaca em botões e CTAs, transmitindo clareza e confiança. Sua geometria limpa facilita a leitura em diferentes tamanhos.</p>
+                <button>Começar Agora</button>
+            </div>
+
+            <div class="use-case">
+                <h3>Conteúdo Técnico</h3>
+                <p>Ideal para interfaces digitais e documentos técnicos. Os números são bem diferenciados e a leitura em blocos de texto é confortável.</p>
+                <button>Ver Detalhes</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Características da Fonte</h2>
+        <div class="paragraph-sample">
+            <ul style="list-style: none; padding: 0;">
+                <li style="padding: 15px 0; border-bottom: 1px solid #e0e0e0; font-size: 16px;">
+                    <span style="font-weight: 700; color: #F57C00;">✓</span> 
+                    <span style="font-weight: 600;">Geométrica moderna</span> - Formas limpas e contemporâneas
+                </li>
+                <li style="padding: 15px 0; border-bottom: 1px solid #e0e0e0; font-size: 16px;">
+                    <span style="font-weight: 700; color: #F57C00;">✓</span> 
+                    <span style="font-weight: 600;">7 pesos disponíveis</span> - De ExtraLight (200) a ExtraBold (800)
+                </li>
+                <li style="padding: 15px 0; border-bottom: 1px solid #e0e0e0; font-size: 16px;">
+                    <span style="font-weight: 700; color: #F57C00;">✓</span> 
+                    <span style="font-weight: 600;">Excelente legibilidade</span> - Funciona bem em telas e impressos
+                </li>
+                <li style="padding: 15px 0; border-bottom: 1px solid #e0e0e0; font-size: 16px;">
+                    <span style="font-weight: 700; color: #F57C00;">✓</span> 
+                    <span style="font-weight: 600;">Multilíngue</span> - Suporte para acentos e caracteres especiais
+                </li>
+                <li style="padding: 15px 0; font-size: 16px;">
+                    <span style="font-weight: 700; color: #F57C00;">✓</span> 
+                    <span style="font-weight: 600;">Gratuita</span> - Open source via Google Fonts
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
